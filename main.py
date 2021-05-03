@@ -38,5 +38,5 @@ class NobelData:
         print(winner_list)
 
 
-nd = NobelData()
-nd.search_nobel("2018", "chemistry")
+# nd = NobelData()
+# nd.search_nobel("2018", "chemistry")
