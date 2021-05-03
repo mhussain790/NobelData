@@ -30,7 +30,6 @@ class NobelData:
 
                     # Append surname of the winner to the winner_list
                     winner = items["surname"]
-                    print(items["surname"])
                     winner_list.append(winner)
 
         # Sort the winner list then print to console
@@ -38,5 +37,5 @@ class NobelData:
         print(winner_list)
 
 
-# nd = NobelData()
-# nd.search_nobel("2018", "chemistry")
+nd = NobelData()
+nd.search_nobel("1975", "chemistry")
