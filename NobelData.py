@@ -34,8 +34,8 @@ class NobelData:
 
         # Sort the winner list then print to console
         winner_list.sort()
-        print(winner_list)
+        return winner_list
 
 
-nd = NobelData()
-nd.search_nobel("1975", "chemistry")
+# nd = NobelData()
+# nd.search_nobel("1975", "chemistry")
